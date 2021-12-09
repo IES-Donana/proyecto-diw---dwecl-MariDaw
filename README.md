@@ -9,25 +9,25 @@
 
 ## DESCRIPCIÓN<a name="id1"></a>
 La propuesta de diseño que he elegido para mi portafolio es una página web lineal
-con scroll hacia abajo.
+con scroll hacia abajo.<br>
 El esquema de la página consta de cinco apartados que vamos a ver a continuación.
 Lo primero que nos encontraremos será con el home, compuesto por una foto
 esencial posicionada a la derecha que abarca la mitad de la página principal. Arriba
 de la imagen están los enlaces a las diferentes secciones de la página, a la izquierda
 de la foto; mi nombre y por último un pequeño logo situado en la esquina superior
-izquierda.
+izquierda.<br>
 Haciendo scroll hacia abajo nos encontraremos con la sección de trabajos, aquí
 mostraré la información de mis proyectos. Los trabajos se visualizan a través de una
 foto, justo debajo de cada foto está su correspondiente título y una breve
 descripción. Para conseguir más información de los trabajos, debemos pinchar en la
-portada de los proyectos y nos llevará a él a través de un enlace.
+portada de los proyectos y nos llevará a él a través de un enlace.<br>
 Siguiendo con el scroll, veremos los testimonios de usuarios sobre mis proyectos y
 sus opiniones en cuanto a mis habilidades de trabajo, esto se va a representar a
-través de fotos y textos.
+través de fotos y textos.<br>
 A continuación, hay un apartado más personal sobre mí, en el que encontraremos
 información sobre mis conocimientos, una pequeña biografía y mis aficiones, que se
 recogerán a través de fotos y texto. Mi formación y vida laboral se representarán en
-una línea del tiempo.
+una línea del tiempo.<br>
 Para terminar, justo al final de la página, tenemos el footer con los enlaces a mis
 redes sociales; como instagram, linkedin, github y correo electrónico, a la derecha de
 los iconos habrá un pequeño formulario y para volver a la página de inicio, nos
