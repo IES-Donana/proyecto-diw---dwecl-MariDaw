@@ -55,22 +55,26 @@ function generar() {
 
     const a = document.createElement("a");
     a.className = "menuItem";
+    a.setAttribute("href", "#work");
     const newContent =document.createTextNode("PROYECTOS");
     a.appendChild(newContent);
 
 
     const a1 = document.createElement("a");
     a1.className = "menuItem";
+    a1.setAttribute("href", "#testimonios");
     const newContent1 =document.createTextNode("TESTIMONIOS");
     a1.appendChild(newContent1);
 
 
     const a2 = document.createElement("a");
     a2.className = "menuItem";
+    a2.setAttribute("href", "#aboutme");
     const newContent2 =document.createTextNode("SOBRE MÍ");
     a2.appendChild(newContent2);
 
     const a3 = document.createElement("a");
+    a3.setAttribute("href", "#contacto");
     a3.className = "menuItem";
     a3.textContent = "CONTACTO";
 
