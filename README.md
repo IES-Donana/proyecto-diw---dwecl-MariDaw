@@ -37,13 +37,13 @@ volvemos a encontrar con el logo situado en la esquina superior izquierda.
 https://www.figma.com/file/bZmIY9MveXoRAo7jVjtREk/Portafolio?node-id=0%3A1
 
 ## MODIFICACIONES A LA GUÍA DE ESTILOS<a name="id3"></a>
-[Listado de modificaciones realizadas debidadmente justificadas. ]
+Formulario: cambios en el formulario por petición de la asignatura DEWCL.
 
 ## RECURSOS<a name="id4"></a>
-[Listado de recursos usados]
-
 - Can I use?: https://caniuse.com/
 - Bootstrap: https://getbootstrap.com/
 - Tailwind: https://tailwindcss.com/docs
 - W3C CSS Validator: https://jigsaw.w3.org/css-validator/
 - W3C HTML Validator: https://validator.w3.org/
+- Figma: https://www.figma.com/
+- MockFlow: https://www.mockflow.com/
