@@ -39,6 +39,7 @@ https://www.figma.com/file/bZmIY9MveXoRAo7jVjtREk/Portafolio?node-id=0%3A1
 
 ## MODIFICACIONES A LA GUÍA DE ESTILOS<a name="id3"></a>
 Formulario: cambios en el formulario por petición de la asignatura DEWCL.
+He obviado las líneas decorativas entre los textos del apartado sobre mí, por estética.
 
 ## RECURSOS<a name="id4"></a>
 
