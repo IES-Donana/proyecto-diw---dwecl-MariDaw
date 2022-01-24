@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DIALOG</title>
+  <style>
+    button {
+      padding: 5px 10px;
+      text-transform: uppercase;
+      border: none;
+      background-color: goldenrod;
+      color: white;
+    }
+
+    dialog {
+      border: none;
+      background-color: gainsboro;
+      color: goldenrod;
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+
+    dialog[open] {
+      position: fixed;
+      width: 50%;
+      max-width: 750px;
+      top: 100px; /* No aplica al modal. */
+    }
+
+    /* Fondo del diálogo modal. */
+    dialog::backdrop {
+      background: linear-gradient(90deg, gray, gold);
+      mix-blend-mode: darken;
+      backdrop-filter: blur;
+    }
+  </style>
+</head>
+<body>
+  <button id="show" onclick="document.getElementById('dialogo-1').show()">Mostrar</button>
+  <button id="show" onclick="document.getElementById('dialogo-1').showModal()">Mostrar en ventana modal</button>
+  <dialog id="dialogo-1">
+    <p>Hola! Este es nuestro primer diálogo. Si te gusta, no lo cierres...</p>
+    <button id="close" onclick="document.getElementById('dialogo-1').close()">Ok!</button>
+  </dialog>
+</body>
+</html>
