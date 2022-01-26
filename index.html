@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MaríaQuirós</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
     <script defer src="/js/burger.js"></script>
     <script defer src="/js/validar.js"></script>
     <style>
@@ -19,7 +20,11 @@
     <source src="audio/fondo.mp3" type="audio/mpeg">
     <source src="audio/fondo.ogg" type="audio/ogg">
   </audio>
+  <video id="fondo" width="100%" height="110vh" autoplay loop preload="auto">
+    <source src="video/Abstract - 20072.mp4" type="video/mp4">
+  </video>
     <header id="header">
+      
         <section id="logo">
             <h6>Hola</h6>
             <img src="img/logo.png" alt="Logo" width="100" height="100">
@@ -56,7 +61,7 @@
         </section>
         <section id="scroll">
           <h6>Hola</h6>
-          <a href="#work"><img src="img/scroll.png" alt="scroll" width="40" height="30"></a>
+          <a href="#work"><img src="img/angulo-hacia-abajo.svg" alt="scroll" width="40" height="30"></a>
         </section>
     </header>
     <div id="work">
@@ -90,7 +95,7 @@
         </section>
         <section id="test2">
           <h6>Hola</h6>
-          <video src="video/video.mp4" controls alt="Testimonio1" width="350" height="230"></video>
+          <video src="video/video.mp4" controls alt="Testimonio1" width="350" height="230" ></video>
           <aside id="asidetest2">
             Trabajamos con María por su atención cercana, su trato, su positivismo y su entusiasmo a la hora de hacer su trabajo.          </aside>
         </section>
@@ -99,7 +104,7 @@
         <h1 class="titulo">Sobre mí</h1>
         <div id="containerAbout">
           <div>
-            <img class="imgSobre" id="cambiante" src="img/logo.png" alt="About" width="200" height="200">
+            <img class="imgSobre" id="cambiante" src="img/foto.jpg" alt="About" width="200" height="200">
             <h2>PERSONAL</h2>
             <aside class="textoabout">
               Mi nombre es María Quirós Enríquez, tengo 21 años (11 de Julio del 2000). Vivo en Sanlúcar de Barrameda, Cádiz. <br>
@@ -107,7 +112,7 @@
             </aside>
           </div>
           <div>
-            <img class="imgSobre" src="img/logo.png" alt="About" width="200" height="200">
+            <img class="imgSobre" src="img/foto.jpg" alt="About" width="200" height="200">
             <h2>SKILLS</h2>
             <aside class="textoabout">
               Los lenguajes con los que más he trabajado y tengo conocimientos. <br>
@@ -117,7 +122,7 @@
             </aside>
           </div>
           <div>
-            <img class="imgSobre" src="img/logo.png" alt="About" width="200" height="200">
+            <img class="imgSobre" src="img/foto.jpg" alt="About" width="200" height="200">
             <h2>HOBBIES</h2>
             <aside class="textoabout">
               Me gusta mucho hacer deporte, por lo que en mi tiempo libre voy sea correr, montar en bici, ir de sendero o montar en monopatín... Me encanta estar con mis amigos e investigar sobre las criptomonedas.
@@ -215,8 +220,12 @@
             <button id="show" onclick="document.getElementById('dialogo-1').show()">Mostrar</button>
             <button id="show-modal" onclick="document.getElementById('dialogo-1').showModal()">Modal</button>
             <dialog id="dialogo-1">
-              <p>Info contacto</p>
-              <button id="close" onclick="document.getElementById('dialogo-1').close()">Ok!</button>
+              <h1>Contact Me</h1>
+              <img class="redes" src="img/insta.png" alt="icono" width="30px" height="30px">mari_cuxi<br>
+              <img class="redes" src="img/tw.png" alt="icono" width="30px" height="30px">mari_cuxi<br>
+              <img class="redes" src="img/gith.png" alt="icono" width="30px" height="30px">MariDaw <br>
+              <img class="redes" src="img/gm.png" alt="icono" width="30px" height="30px">maria.quiros@iesdonana.org<br>
+              <button id="close" onclick="document.getElementById('dialogo-1').close()">Close</button>
             </dialog>
 
         </form>
