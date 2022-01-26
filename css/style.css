@@ -673,35 +673,33 @@ footer h1 {
 /*details*/
 
 details {
-    padding: 15px;
-    background-color: transparent;
-    margin-bottom: 20px;
-    width: 200px;
-    position: relative;
-    bottom: 240px;
-    left: 650px;
+
 
 }
 
 details[open] {
     background-color: white;
-    width: 210px;
-    height: 300px;
-    z-index: 1;
+    width: 250px;
+
 }
 
 summary {
     cursor: pointer;
     color: white;
-    font-family: 'Roboto Condensed', sans-serif; ;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100px;
+    display:block;
+
+}
+.sum{
+    width: 50px;
+    height: 50px;
+    
 }
 
 summary::marker {
     color: #ebcd23;
     font-size: 1.5em;
-    border: 1px solid red;
-    display: none;
-    content: "";
 }
 
 summary:before {
@@ -988,7 +986,7 @@ nav {
     position: relative;
     left: 150px;
     bottom: 160px;
-    width: 280px;
+    width: 250px;
     margin-top: 5px;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
