@@ -253,11 +253,13 @@ p span strong{
 
 #show, #show-modal, #close{
     text-transform: uppercase;
-    width: 100px;
+    width: 60px;
     border: 1px solid black;
     border-radius: 5px;
     background-color: black;
     color: white;
+    position: relative;
+    left: 250px;
 
 }
 
@@ -832,8 +834,71 @@ h6 {
         display: none;
     }
 
+    #fondo{
+        display: none;
+       
+    }
 
-
+    #show, #show-modal, #close{
+        text-transform: uppercase;
+        width: 100px;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        position: relative;
+        bottom: 380px;
+        left: 150px;
+    
+    }
+    
+    #close{
+        position: fixed;
+        top:410px;
+        left: 45%;
+    }
+    
+    .info{
+        display: flex;
+        flex-wrap: wrap;
+        color: black;
+    }
+    
+    dialog {
+        color: black;
+        border: 10px solid black;
+        background-color: rgb(145, 111, 180);
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 1.2em;
+        
+      }
+    
+      img.redes{
+          vertical-align: text-bottom;
+          height: 20px;
+          width: 20px;
+      }
+    
+      dialog h1{
+          font-size: 1.3em;
+      }
+    
+      dialog[open] {
+        position: fixed;
+        color: black;
+        width: 70%;
+        height: 330px;
+        max-width: 750px;
+        top: 100px; /* No aplica al modal. */
+      }
+    
+      /* Fondo del diálogo modal. */
+      dialog::backdrop {
+        background: rebeccapurple;
+        mix-blend-mode: darken;
+        
+      }
 #logo{
     display: none;
 }
@@ -899,8 +964,8 @@ nav {
 
 #test1 video {
     border: 20px solid #F3DD62;
-    width: 150px;
-    height: 150px;
+    width: 225px;
+    height: 118px;
     position: relative;
     left: 50px;
 
@@ -909,10 +974,11 @@ nav {
 
 #test2 video {
     border: 20px solid #F3DD62;
-    width: 150px;
-    height: 150px;
+    width: 225px;
+    height: 118px;
     position: relative;
-    right: 20px;
+    top: 90px;
+    right: 70px;
     margin: 30px;
 
 
@@ -940,7 +1006,7 @@ nav {
 
 #aboutme {
     width: 100%;
-    height: 120vh;
+    height: 130vh;
     background-color: black;
 }
 
@@ -1020,8 +1086,8 @@ nav {
 
 .social {
     position: relative;
-    bottom: 290px;
-    right: 50px;
+    bottom: 350px;
+    right: 75px;
     width: 30px;
     height: 30px;
     background-size: 30px 30px;
