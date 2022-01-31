@@ -20,18 +20,19 @@
     <source src="audio/fondo.mp3" type="audio/mpeg">
     <source src="audio/fondo.ogg" type="audio/ogg">
   </audio>
-  <video id="fondo" width="100%" height="110vh" autoplay loop preload="auto">
+  <video id="fondo" width="100%" height="110vh" autoplay preload="auto">
     <source src="video/Abstract - 20072.mp4" type="video/mp4">
+    <source src="video/Abstract-20072.ogg" type="video/ogg">
   </video>
     <header id="header">
-      
+
         <section id="logo">
             <h6>Hola</h6>
             <picture>
               <source media="(min-width: 465px)" srcset="img/logo.png">
-              <img src="img/logo.png" alt="Logo" width="100" height="100">
+              <img src="img/logoSVG.svg" alt="Logo" width="100" height="100">
             </picture>
-            
+
         </section>
 
         <h1>MaríaQuirós</h1>
@@ -65,7 +66,7 @@
               <source media="(min-width: 650px)" srcset="img/principal.jpg">
               <img src="img/principal.jpg" alt="Foto_Principal" width="430" height="480">
             </picture>
-            
+
         </section>
         <section id="scroll">
           <h6>Hola</h6>
@@ -111,14 +112,14 @@
         <h1 class="titulo">Testimonios</h1>
         <section id="test1">
           <h6>Hola</h6>
-          <video src="video/video.mp4" controls alt="Testimonio1" width="350" height="230"></video>
+          <video src="video/video.mp4" controls alt="Testimonio1" width="350" height="230" poster="img/oficina1.png"></video>
           <aside id="asidetest">
             <strong>Necesitábamos un software que cubriera las necesidades de gestión de mi empresa para atender mejor a los clientes y llevar un mejor control interno. El trato y la calidad a lo largo de todo el proceso fue perfecto.</strong>
           </aside>
         </section>
         <section id="test2">
           <h6>Hola</h6>
-          <video src="video/video.mp4" controls alt="Testimonio1" width="350" height="230" ></video>
+          <video src="video/video.mp4" controls alt="Testimonio1" width="350" height="230" poster="img/oficina2.png"></video>
           <aside id="asidetest2">
             <strong>Trabajamos con María por su atención cercana, su trato, su positivismo y su entusiasmo a la hora de hacer su trabajo.</strong>          </aside>
         </section>
@@ -167,7 +168,7 @@
                 <h5>Nombre</h5>
                 <img class="sum" src="img/logotipo.gif" alt="Logotipo" width="150px" height="150px">
               </details>
-            </aside>   
+            </aside>
           </div>
         </div>
       <div class="containerTime">
@@ -288,8 +289,8 @@
             <button id="show-modal" onclick="document.getElementById('dialogo-1').showModal()">ME</button>
             <dialog id="dialogo-1">
               <h1>Contact Me</h1>
-              <img class="redes" src="img/insta.png" alt="icono" width="30px" height="30px">mari_cuxi<br>
-              <img class="redes" src="img/tw.png" alt="icono" width="30px" height="30px">mari_cuxi<br>
+              <img class="redes" src="img/insta.png" alt="icono" width="30px" height="30px">Mari_Daw<br>
+              <img class="redes" src="img/tw.png" alt="icono" width="30px" height="30px">Mari_Daw<br>
               <img class="redes" src="img/gith.png" alt="icono" width="30px" height="30px">MariDaw <br>
               <img class="redes" src="img/gm.png" alt="icono" width="30px" height="30px">maria.quiros@iesdonana.org<br>
               <button id="close" onclick="document.getElementById('dialogo-1').close()">Close</button>
