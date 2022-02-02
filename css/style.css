@@ -1166,3 +1166,8 @@ h6 {
     display: none;
 }
 }
+
+.acredita{
+    position: relative;
+    top: 30px;
+}
