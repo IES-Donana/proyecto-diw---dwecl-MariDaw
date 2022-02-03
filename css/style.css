@@ -538,12 +538,11 @@ p.dwork{
     color: #F3DD62;
     font-family: 'Roboto', sans-serif;
     position: relative;
-
     left: 150px;
     bottom: 80px;
     font-size:x-large;
-    font-weight: bold;
-
+    font-weight: bolder;
+    
 }
 
 .eclipse img {
