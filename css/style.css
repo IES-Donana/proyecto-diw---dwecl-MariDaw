@@ -776,7 +776,7 @@ h6 {
     }
 
 
-    header h1, p{
+    header h1, #breve{
         border: 0px solid orange;
         display: flex;
         position: relative;
@@ -791,7 +791,7 @@ h6 {
         width: 400px;
     }
 
-    header p {
+    header #breve {
         font-size: 20px;
         width: 400px;
         font-style: normal;
@@ -868,19 +868,20 @@ h6 {
     }
 
     #show, #show-modal, #close{
+        position: relative;
+        top: -250px;
         text-transform: uppercase;
         width: 100px;
         border: 1px solid black;
         border-radius: 3px;
         background-color: black;
-        color: white;
-        position: relative;
-        bottom: 400px;
-        left: 150px;
+        color: white;      
+        left: 300px;
 
     }
 
     #show, #show-modal{
+        margin: 5px;
 
     }
 
@@ -1084,7 +1085,7 @@ nav {
     position: relative;
     left: 150px;
     bottom: 160px;
-    width: 250px;
+    width: 270px;
     margin-top: 5px;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
@@ -1117,8 +1118,8 @@ nav {
 
 
 .social {
-    position: relative;
-    bottom: 350px;
+    display: inline-flex;
+    bottom:270px;
     right: 75px;
     width: 30px;
     height: 30px;
@@ -1134,13 +1135,15 @@ form {
     width: 350px;
     height: 200px;
     position: relative;
-    bottom: 40px;
-    right: 90px;
+    bottom: -20px;
+    right: 130px;
     /* Esquema del formulario */
     padding: 1em;
     border: 0px solid #CCC;
     border-radius: 1em;
     float: right;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:lighter;
 
 }
 #nombre, #apellido, #email, #mensaje {
@@ -1154,17 +1157,14 @@ input{
 
 #enviar, #borrar {
     position: relative;
-    bottom: 590px;
-    left: 45px;
+    bottom: -20px;
+    left: 130px;
     background-color: black;
     color: white;
     border-radius: 5px;
     margin: 1px;
 }
-td {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight:lighter;
-}
+
 
 footer img{
     margin: 30px;
