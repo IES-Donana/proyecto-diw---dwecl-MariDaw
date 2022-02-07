@@ -85,7 +85,7 @@ body {
     /*border: px solid pink;*/
 }
 
-header h1, p{
+header h1, #breve{
     /*border: 0px solid orange;*/
     display: flex;
     position: relative;
@@ -100,7 +100,7 @@ header h1{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-header p {
+header #breve {
     font-size: 30px;
     width: 400px;
     font-style: normal;
@@ -199,7 +199,7 @@ nav {
 
 }
 
-p span strong{
+#breve span strong{
     background-color: #F3DD62;
     animation: color-animation 8s linear;
 
