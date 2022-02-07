@@ -263,12 +263,15 @@ nav {
     background-color: black;
     color: white;
     position: relative;
-    left: 250px;
+    left: 370px;
+    top: 30px;
 
 }
 
 #show, #show-modal{
     display: inline-block;
+    position: relative;
+    
     margin: 5px;
     
 }
@@ -622,7 +625,7 @@ form {
     height: 200px;
     position: relative;
     bottom: 220px;
-    right: 50px;
+    right: 100px;
     /* Esquema del formulario */
     padding: 1em;
     border: 0px solid #CCC;
@@ -631,10 +634,21 @@ form {
     /* border: 1px solid green; */
 }
 
-label{
+label, textarea{
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    width: 350px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight:lighter;
+
+} 
+
+input, textarea{
+    width: 250px;
 }
+
 
 input, textarea {
     border: 2px solid #ebcd23;
@@ -645,7 +659,7 @@ input, textarea {
 #enviar, #borrar {
     position: relative;
     bottom: -10px;
-    left: 0px;
+    left: 140px;
     background-color: black;
     color: white;
     border-radius: 5px;
@@ -863,6 +877,10 @@ h6 {
         position: relative;
         bottom: 400px;
         left: 150px;
+
+    }
+
+    #show, #show-modal{
 
     }
 
