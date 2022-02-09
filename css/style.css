@@ -1249,35 +1249,30 @@ h6 {
         position: relative;
         margin: 10px;
         top: 180px;
-        right: 100px;
+        right: 10px;
+        width: 50px;
     
     }
-
+    
     #scroll {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        bottom: 10px;
-        width: 80%;
-        /* border: 1px solid red; */
+        display: none;
     }
 
-    .titulo {
-        font-size: 40px;
-        font-weight: bold;
-        font-family: 'Roboto', sans-serif;
-        display: flex;
-        text-align: center;
-    }
     
     header h1{
         font-size: 50px;
+        position: relative;
+        left: -130px;
+        top:550px;
+        width: 100px;
         font-family: 'Roboto Condensed', sans-serif;
     }
     
     header #breve {
         font-size: 30px;
-        width: 100px;
+        position: relative;
+        left: -130px;
+        top: 550px;
         font-style: normal;
         font-family: 'Roboto', sans-serif;
     }
@@ -1296,10 +1291,6 @@ h6 {
     }
     
     
-    
-    
-    
-    
     header ol{
         display: flex;
         position: relative;
@@ -1309,13 +1300,13 @@ h6 {
     
     header ol li {
         display: inline-block;
-        margin: 0 -19px;
+        margin: 0 -16px;
         align-items: center;
         /* font-size: px; */
         font-weight: bold;
-        bottom: 70px;
-        padding-right: 74px;
-        right: 50px;
+        bottom: 30px;
+        padding-right: 44px;
+        right: 37px;
         position: relative;
         font-family: 'Roboto Condensed', sans-serif;
         font-weight: bolder;
@@ -1399,7 +1390,7 @@ h6 {
     }
 
 
-    header h1, #breve{
+    /*header h1, #breve{
         border: 0px solid orange;
         display: flex;
         position: relative;
@@ -1418,7 +1409,7 @@ h6 {
         font-size: 20px;
         width: 400px;
         font-style: normal;
-    }
+    }*/
 
     .barra {
         background:black;
@@ -1507,7 +1498,7 @@ h6 {
         color: black;
         width: 70%;
         height: 330px;
-        max-width: 750px;
+        max-width: 450px;
         top: 100px; /* No aplica al modal. */
       }
 
@@ -1518,21 +1509,20 @@ h6 {
 
       }
 
+
+
 #work {
     width: 100%;
-    height: 230vh;
+    height: 170vh;
     background-color: black;
 }
 
-#work h1{
-    text-align: center;
-    left: 150px;
+#containerWork h1 {
     color: white;
+    text-align: center;
     position: relative;
-    top: 40px;
+    top: 25px;
     font-family: 'Roboto Condensed', sans-serif;
-    border: 0px solid red;
-    width: 200px;
 }
 
 #containerWork {
@@ -1549,7 +1539,8 @@ h6 {
 }
 #containerWork div img {
     border: 0px solid orange;
-    margin: 10px;
+    margin: 30px 20px 10px;
+    
 
 }
 
@@ -1584,7 +1575,7 @@ h6 {
     width: 225px;
     height: 118px;
     position: relative;
-    top: 90px;
+    top: 250px;
     right: 70px;
     margin: 30px;
 
@@ -1642,31 +1633,31 @@ h6 {
     right: 190px;
     bottom: 20px;
     border-bottom: 25px solid white;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 #containerAbout h2 {
     color: white;
     position: relative;
-    left: 150px;
-    bottom: 155px;
+    left: 250px;
+    bottom: 185px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
 }
 .textoabout {
     color: white;
     position: relative;
-    left: 150px;
-    bottom: 160px;
-    width: 270px;
+    left: 250px;
+    bottom: 180px;
+    width: 370px;
     margin-top: 5px;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
 }
 #contacto {
     width: 100%;
-    height: 80vh;
+    height: 45vh;
     background-color: #F3DD62;
 }
 
@@ -1709,7 +1700,7 @@ form {
     width: 350px;
     height: 200px;
     position: relative;
-    bottom: -20px;
+    bottom: 200px;
     right: 130px;
     /* Esquema del formulario */
     padding: 1em;
