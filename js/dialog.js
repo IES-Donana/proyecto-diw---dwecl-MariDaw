@@ -1,4 +1,4 @@
-var mostar = document.getElementById('mostrar');
+var mostrar = document.getElementById('mostrar');
 var cerrar = document.getElementById('cerrar');
 var dialogo = document.getElementById('dialogo');
 
