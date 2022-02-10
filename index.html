@@ -268,8 +268,21 @@
                 <input type="submit" value="Borrar" id="borrar" />
             </p>
 
-            <button id="show" onclick="document.getElementById('dialogo-1').show()">Click</button>
+            <!--<button id="show" onclick="document.getElementById('dialogo-1').show()">Click</button>-->
             <button id="show-modal" onclick="document.getElementById('dialogo-1').showModal()">ME</button>
+            <!--<script>
+              const dialog = document.getElementById('dialog');
+              document.getElementById('button').addEventListener('click', () => dialog.showModal());
+              document.getElementById('button').addEventListener('keypress', (e) =>{
+                  if(e.key === "Enter"){
+                      dialog.showModal()
+                  }});
+              document.getElementById('close').addEventListener('click', (e) =>{
+                  e.preventDefault();
+                  dialog.close();
+              })
+            </script>-->
+            
             <dialog id="dialogo-1">
               <h1>Contact Me</h1>
               <img class="redes" src="img/insta.png" alt="Icono" width="30px" height="30px">Mari_Daw<br>

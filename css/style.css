@@ -329,7 +329,7 @@ dialog {
     width: 35%;
     height: 400px;
     max-width: 750px;
-    top: 100px; /* No aplica al modal. */
+    top: 100px; 
   }
 
   /* Fondo del diálogo modal. */
@@ -338,6 +338,7 @@ dialog {
     mix-blend-mode: darken;
 
   }
+
 /* PROYECTOS */
 
 #work h1{
