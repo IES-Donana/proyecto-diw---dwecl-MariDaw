@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MaríaQuirós</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <script defer src="/js/burger.js"></script>
-    <script defer src="/js/validar.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-      .error {
-        border: 2px solid red;
-      }
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MaríaQuirós</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <script defer src="/js/burger.js"></script>
+  <script defer src="/js/validar.js"></script>
+  <script defer src="/js/dialog.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .error {
+      border: 2px solid red;
+    }
+  </style>
 </head>
+
 <body>
   <audio autoplay preload="auto">
     <source src="audio/fondo.mp3" type="audio/mpeg">
@@ -25,264 +28,260 @@
     <source src="video/Abstract - 20072.mp4" type="video/mp4">
     <source src="video/Abstract-20072.ogg" type="video/ogg">
   </video>
-    <header id="header">
-        <section id="logo">
-            <picture>
-              <source media="(min-width: 465px)" srcset="img/logo.png">
-              <img src="img/logoSVG.svg" alt="" width="100" height="100">
-            </picture>
+  <header id="header">
+    <section id="logo">
+      <picture>
+        <source media="(min-width: 465px)" srcset="img/logo.png">
+        <img src="img/logoSVG.svg" alt="" width="100" height="100">
+      </picture>
 
-        </section>
+    </section>
 
-        <h1>MaríaQuirós</h1>
-        <h2 id="breve"><span>Estudiante de <strong class="subrayado"> Desarrollo de Aplicaciones Web</strong></span></h2>
-        <nav class="menu">
-            <ol>
-              <li>
-                <a class="nav" href="#work"><strong>PROYECTOS</strong></a>
-              </li>
-              <li>
-                <a class="nav" href="#testimonios"><strong>TESTIMONIOS</strong></a>
-              </li>
-              <li>
-                <a class="nav" href="#aboutme"><strong>SOBRE MÍ</strong></a>
-              </li>
-              <li>
-                <a class="nav" href="#contacto"><strong>CONTACTO</strong></a>
-              </li>
-            </ol>
-        </nav>
-        <div id="hamburguesa">
-          <ul>
-              <li id="barraUno" class="barra"></li>
-              <li id="barraDos" class="barra"></li>
-              <li id="barraTres" class="barra"></li>
-          </ul>
+    <h1>MaríaQuirós</h1>
+    <h2 id="breve"><span>Estudiante de <strong class="subrayado"> Desarrollo de Aplicaciones Web</strong></span></h2>
+    <nav class="menu">
+      <ol>
+        <li>
+          <a class="nav" href="#work"><strong>PROYECTOS</strong></a>
+        </li>
+        <li>
+          <a class="nav" href="#testimonios"><strong>TESTIMONIOS</strong></a>
+        </li>
+        <li>
+          <a class="nav" href="#aboutme"><strong>SOBRE MÍ</strong></a>
+        </li>
+        <li>
+          <a class="nav" href="#contacto"><strong>CONTACTO</strong></a>
+        </li>
+      </ol>
+    </nav>
+    <div id="hamburguesa">
+      <ul>
+        <li id="barraUno" class="barra"></li>
+        <li id="barraDos" class="barra"></li>
+        <li id="barraTres" class="barra"></li>
+      </ul>
+    </div>
+    <section id="principal">
+      <picture>
+        <source media="(min-width: 650px)" srcset="img/principal.jpg">
+        <img src="img/principal.jpg" alt="Foto Principal" width="430" height="480">
+      </picture>
+
+    </section>
+    <section id="scroll">
+      <a href="#work"><img src="img/angulo-hacia-abajo.svg" alt="Scroll" width="40" height="30"></a>
+    </section>
+  </header>
+  <div id="work">
+    <h1 class="titulo">Proyectos</h1>
+    <div id="containerWork">
+      <div>
+        <a href="https://github.com/">
+          <picture>
+            <source media="(min-width: 650px)" srcset="img/work2.jpeg">
+            <img src="img/work2.jpeg" alt="Proyecto 1" width="280" height="390">
+          </picture>
+        </a>
+        <h2 class="textowork">POMODORO</h2>
+        <p class="dwork">Temporizador que divide el trabajo en bloques de tiempos.</p>
       </div>
-        <section id="principal">
-            <picture>
-              <source media="(min-width: 650px)" srcset="img/principal.jpg">
-              <img src="img/principal.jpg" alt="Foto Principal" width="430" height="480">
-            </picture>
-
-        </section>
-        <section id="scroll">
-          <a href="#work"><img src="img/angulo-hacia-abajo.svg" alt="Scroll" width="40" height="30"></a>
-        </section>
-    </header>
-    <div id="work">
-        <h1 class="titulo">Proyectos</h1>
-        <div id="containerWork">
-          <div>
-            <a href="https://github.com/">
-              <picture>
-                <source media="(min-width: 650px)" srcset="img/work2.jpeg">
-                <img src="img/work2.jpeg" alt="Proyecto 1" width="280" height="390">
-              </picture>
-            </a>
-            <h2 class="textowork">POMODORO</h2>
-            <p class="dwork">Temporizador que divide el trabajo en bloques de tiempos.</p>
-          </div>
-          <div>
-            <a href="https://github.com/MariDaw">
-              <picture>
-                <source media="(min-width: 650px)" srcset="img/work1.png">
-                <img src="img/work1.png" alt="Proyecto 2" width="280" height="390">
-              </picture>
-            </a>
-            <h2 class="textowork">TIENDA WEB</h2>
-            <p class="dwork">Página web de venta de ropa online.</p>
-          </div>
-          <div>
-            <a href="https://ies-donana.github.io/proyecto-diw---dwecl-MariDaw/">
-              <picture>
-                <source media="(min-width: 650px)" srcset="img/work3.png">
-                <img src="img/work3.png" alt="Proyecto 3" width="280" height="390">
-              </picture>
-            </a>
-            <h2 class="textowork">PORTAFOLIO</h2>
-            <p class="dwork">Portafolio del grado superior DAW</p>
-          </div>
-        </div>
-    </div>
-    <div id="testimonios">
-        <h1 class="titulo">Testimonios</h1>
-        <section id="test1">
-          <video src="video/video.mp4" controls alt="Testimonio 1" width="350" height="230" poster="img/oficina1.png"></video>
-          <aside id="asidetest">
-            <strong>Necesitábamos un software que cubriera las necesidades de gestión de mi empresa para atender mejor a los clientes y llevar un mejor control interno. El trato y la calidad a lo largo de todo el proceso fue perfecto.</strong>
-          </aside>
-        </section>
-        <section id="test2">
-          <video src="video/video.mp4" controls alt="Testimonio 2" width="350" height="230" poster="img/oficina2.png"></video>
-          <aside id="asidetest2">
-            <strong>Trabajamos con María por su atención cercana, su trato, su positivismo y su entusiasmo a la hora de hacer su trabajo.</strong>          </aside>
-        </section>
-    </div>
-    <div id="aboutme">
-        <h1 class="titulo">Sobre mí</h1>
-        <div id="containerAbout">
-          <div>
-            <picture>
-              <source media="(min-width: 650px)" srcset="img/foto.jpg">
-              <img class="imgSobre" id="cambiante" src="img/foto.jpg" alt="Foto sobre mí 1" width="200" height="200">
-            </picture>
-            <h2>PERSONAL</h2>
-            <aside class="textoabout">
-              Mi nombre es María Quirós Enríquez, tengo 21 años (11 de Julio del 2000). Vivo en Sanlúcar de Barrameda, Cádiz. <br>
-              Nunca tuve claro que estudiar aún así hice selectividad y no me decanté por nada así que me fui un año a trabajar a Londres y llegué con las ideas claras, me metí en el grado superior de Desarrollo de Aplicaciones Web.
-            </aside>
-          </div>
-          <div>
-            <picture>
-              <source media="(min-width: 650px)" srcset="img/foto.jpg">
-              <img class="imgSobre" src="img/foto.jpg" alt="Foto sobre mí 2" width="200" height="200">
-            </picture>
-            <h2>SKILLS</h2>
-            <aside class="textoabout">
-              Los lenguajes con los que más he trabajado y tengo conocimientos. <br>
-              FRONTED: HTML5, CSS3, JavaScript, Tailwinds CSS<br>
-              BACKEND: Java, Python, PHP, Laravel<br>
-              También me gusta mucho trabajar con Figma, GitHub...
-            </aside>
-          </div>
-          <div>
-            <picture>
-              <source media="(min-width: 650px)" srcset="img/foto.jpg">
-              <img class="imgSobre" src="img/foto.jpg" alt="Foto sobre mí 3" width="200" height="200">
-            </picture>
-            <h2>HOBBIES</h2>
-            <aside class="textoabout">
-              Me gusta mucho hacer deporte, por lo que en mi tiempo libre voy sea correr, montar en bici, ir de sendero o montar en monopatín... Me encanta estar con mis amigos e investigar sobre las criptomonedas.<br>
-              <br>
-            </br>
-            </br>
-            </br>
-              <details>
-                <summary>Más info</summary>
-                <img class="sum" src="img/logotipo.gif" alt="Logotipo" width="150px" height="150px">
-              </details>
-            </aside>
-          </div>
-        </div>
-      <div class="containerTime">
-        <div class="timeline">
-          <h3 class="ttime">2018</h3>
-          <div class="eclipse">
-            <picture>
-              <source media="(min-width: 650px)" srcset="img/customLogo.png">
-              <img src="img/customLogo.png" alt="" width="40" height="40">
-            </picture>
-          </div>
-          <h3 class="ttime">2019</h3>
-          <div class="eclipse">
-            <picture>
-              <source media="(min-width: 650px)" srcset="img/customLogo.png">
-              <img src="img/customLogo.png" alt="" width="40" height="40">
-            </picture>
-          </div>
-          <h3 class="ttime">2020</h3>
-          <div class="eclipse">
-            <picture>
-              <source media="(min-width: 650px)" srcset="img/customLogo.png">
-              <img src="img/customLogo.png" alt="" width="40" height="40">
-            </picture>
-          </div>
-          <h3 class="ttime">2021</h3>
-          <div class="eclipse">
-            <picture>
-              <source media="(min-width: 650px)" srcset="img/customLogo.png">
-              <img src="img/customLogo.png" alt="" width="40" height="40">
-            </picture>
-          </div>
-        </div>
-        <div class="content">
-          <div class="ttexto">
-            <p>Terminé el grado superior de DAW </p>
-          </div>
-          <div class="ttexto">
-            <p>Realicé las prácticas en la empresa Protofy</p>
-          </div>
-          <div class="ttexto">
-            <p>Trabajé como creadora de páginas web.</p>
-          </div>
-          <div class="ttexto">
-            <p>Trabajé como Desarrolladora Fronted </p>
-          </div>
-        </div>
-
+      <div>
+        <a href="https://github.com/MariDaw">
+          <picture>
+            <source media="(min-width: 650px)" srcset="img/work1.png">
+            <img src="img/work1.png" alt="Proyecto 2" width="280" height="390">
+          </picture>
+        </a>
+        <h2 class="textowork">TIENDA WEB</h2>
+        <p class="dwork">Página web de venta de ropa online.</p>
+      </div>
+      <div>
+        <a href="https://ies-donana.github.io/proyecto-diw---dwecl-MariDaw/">
+          <picture>
+            <source media="(min-width: 650px)" srcset="img/work3.png">
+            <img src="img/work3.png" alt="Proyecto 3" width="280" height="390">
+          </picture>
+        </a>
+        <h2 class="textowork">PORTAFOLIO</h2>
+        <p class="dwork">Portafolio del grado superior DAW</p>
       </div>
     </div>
-    <footer id="contacto">
-      <a href="#header"><img src="img/logotipo.gif" alt="Redirige index" width="80" height="80"></a>
-      <h1>FOLLOW ME!</h1>
+  </div>
+  <div id="testimonios">
+    <h1 class="titulo">Testimonios</h1>
+    <section id="test1">
+      <video src="video/video.mp4" controls alt="Testimonio 1" width="350" height="230"
+        poster="img/oficina1.png"></video>
+      <aside id="asidetest">
+        <strong>Necesitábamos un software que cubriera las necesidades de gestión de mi empresa para atender mejor a los
+          clientes y llevar un mejor control interno. El trato y la calidad a lo largo de todo el proceso fue
+          perfecto.</strong>
+      </aside>
+    </section>
+    <section id="test2">
+      <video src="video/video.mp4" controls alt="Testimonio 2" width="350" height="230"
+        poster="img/oficina2.png"></video>
+      <aside id="asidetest2">
+        <strong>Trabajamos con María por su atención cercana, su trato, su positivismo y su entusiasmo a la hora de
+          hacer su trabajo.</strong>
+      </aside>
+    </section>
+  </div>
+  <div id="aboutme">
+    <h1 class="titulo">Sobre mí</h1>
+    <div id="containerAbout">
+      <div>
+        <picture>
+          <source media="(min-width: 650px)" srcset="img/foto.jpg">
+          <img class="imgSobre" id="cambiante" src="img/foto.jpg" alt="Foto sobre mí 1" width="200" height="200">
+        </picture>
+        <h2>PERSONAL</h2>
+        <aside class="textoabout">
+          Mi nombre es María Quirós Enríquez, tengo 21 años (11 de Julio del 2000). Vivo en Sanlúcar de Barrameda,
+          Cádiz. <br>
+          Nunca tuve claro que estudiar aún así hice selectividad y no me decanté por nada así que me fui un año a
+          trabajar a Londres y llegué con las ideas claras, me metí en el grado superior de Desarrollo de Aplicaciones
+          Web.
+        </aside>
+      </div>
+      <div>
+        <picture>
+          <source media="(min-width: 650px)" srcset="img/foto.jpg">
+          <img class="imgSobre" src="img/foto.jpg" alt="Foto sobre mí 2" width="200" height="200">
+        </picture>
+        <h2>SKILLS</h2>
+        <aside class="textoabout">
+          Los lenguajes con los que más he trabajado y tengo conocimientos. <br>
+          FRONTED: HTML5, CSS3, JavaScript, Tailwinds CSS<br>
+          BACKEND: Java, Python, PHP, Laravel<br>
+          También me gusta mucho trabajar con Figma, GitHub...
+        </aside>
+      </div>
+      <div>
+        <picture>
+          <source media="(min-width: 650px)" srcset="img/foto.jpg">
+          <img class="imgSobre" src="img/foto.jpg" alt="Foto sobre mí 3" width="200" height="200">
+        </picture>
+        <h2>HOBBIES</h2>
+        <aside class="textoabout">
+          Me gusta mucho hacer deporte, por lo que en mi tiempo libre voy sea correr, montar en bici, ir de sendero o
+          montar en monopatín... Me encanta estar con mis amigos e investigar sobre las criptomonedas.<br>
+          <br>
+          </br>
+          </br>
+          </br>
+          <details>
+            <summary>Más info</summary>
+            <img class="sum" src="img/logotipo.gif" alt="Logotipo" width="150px" height="150px">
+          </details>
+        </aside>
+      </div>
+    </div>
+    <div class="containerTime">
+      <div class="timeline">
+        <h3 class="ttime">2018</h3>
+        <div class="eclipse">
+          <picture>
+            <source media="(min-width: 650px)" srcset="img/customLogo.png">
+            <img src="img/customLogo.png" alt="" width="40" height="40">
+          </picture>
+        </div>
+        <h3 class="ttime">2019</h3>
+        <div class="eclipse">
+          <picture>
+            <source media="(min-width: 650px)" srcset="img/customLogo.png">
+            <img src="img/customLogo.png" alt="" width="40" height="40">
+          </picture>
+        </div>
+        <h3 class="ttime">2020</h3>
+        <div class="eclipse">
+          <picture>
+            <source media="(min-width: 650px)" srcset="img/customLogo.png">
+            <img src="img/customLogo.png" alt="" width="40" height="40">
+          </picture>
+        </div>
+        <h3 class="ttime">2021</h3>
+        <div class="eclipse">
+          <picture>
+            <source media="(min-width: 650px)" srcset="img/customLogo.png">
+            <img src="img/customLogo.png" alt="" width="40" height="40">
+          </picture>
+        </div>
+      </div>
+      <div class="content">
+        <div class="ttexto">
+          <p>Terminé el grado superior de DAW </p>
+        </div>
+        <div class="ttexto">
+          <p>Realicé las prácticas en la empresa Protofy</p>
+        </div>
+        <div class="ttexto">
+          <p>Trabajé como creadora de páginas web.</p>
+        </div>
+        <div class="ttexto">
+          <p>Trabajé como Desarrolladora Fronted </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <footer id="contacto">
+    <a href="#header"><img src="img/logotipo.gif" alt="Redirige index" width="80" height="80"></a>
+    <h1>FOLLOW ME!</h1>
+    <p>
+      <a href="https://es.linkedin.com/" class="social linkedin">
+        <picture>
+          <source media="(min-width: 650px)" srcset="img/linkedin.png">
+          <img src="img/linkedin.png" alt="Linkedin" width="40" height="40">
+        </picture>
+      </a>
+      <a href="https://www.instagram.com/" class="social instagram">
+        <picture>
+          <source media="(min-width: 650px)" srcset="img/instagram.png">
+          <img src="img/instagram.png" alt="Instagram" width="40" height="40">
+        </picture>
+      </a>
+      <a href="https://github.com/" class="social git">
+        <picture>
+          <source media="(min-width: 650px)" srcset="img/github.svg">
+          <img src="img/github.svg" alt="Github" width="40" height="40">
+        </picture>
+      </a>
+      <a href="https://www.gmail.com/" class="social gmail">
+        <picture>
+          <source media="(min-width: 650px)" srcset="img/gmail.png">
+          <img src="img/gmail.png" alt="Gmail" width="40" height="40">
+        </picture>
+      </a>
+    </p>
+    <form action="procesar.php" method="post" id="miFormulario">
+
+      <label for="nombre">Nombre:
+        <input type="text" name="nombre" id="nombre" maxlength="15" pattern="[A-Za-z]{2, 15}" required />
+      </label>
+
+      <label for="apellido">Apellido:
+        <input type="text" name="apellido" id="apellido" maxlength="15" pattern="[A-Za-z]{2, 15}" required />
+      </label>
+
+      <label for="email">Email:
+        <input type="email" name="email" id="email" maxlength="90" required />
+      </label>
+
+      <label for="mensaje">Mensaje:
+        <textarea name="mensaje" id="mensaje" cols="30" rows="6"></textarea>
+      </label>
+
+
+      <p id="mensajeError"></p>
       <p>
-        <a href="https://es.linkedin.com/" class="social linkedin">
-          <picture>
-            <source media="(min-width: 650px)" srcset="img/linkedin.png">
-            <img src="img/linkedin.png" alt="Linkedin" width="40" height="40">
-          </picture>
-        </a>
-        <a href="https://www.instagram.com/" class="social instagram">
-          <picture>
-            <source media="(min-width: 650px)" srcset="img/instagram.png">
-            <img src="img/instagram.png" alt="Instagram" width="40" height="40">
-          </picture>
-        </a>
-        <a href="https://github.com/" class="social git">
-          <picture>
-            <source media="(min-width: 650px)" srcset="img/github.svg">
-            <img src="img/github.svg" alt="Github" width="40" height="40">
-          </picture>
-        </a>
-        <a href="https://www.gmail.com/" class="social gmail">
-          <picture>
-            <source media="(min-width: 650px)" srcset="img/gmail.png">
-            <img src="img/gmail.png" alt="Gmail" width="40" height="40">
-          </picture>
-        </a>
+        <input type="submit" value="Enviar" id="enviar" />
+        <input type="submit" value="Borrar" id="borrar" />
       </p>
-        <form action="procesar.php" method="post" id="miFormulario">
-            
-            <label for="nombre">Nombre:
-            <input type="text" name="nombre" id="nombre"
-                maxlength="15" pattern="[A-Za-z]{2, 15}" required/>
-            </label> 
-            
-            <label for="apellido">Apellido:
-            <input type="text" name="apellido" id="apellido"
-                maxlength="15" pattern="[A-Za-z]{2, 15}" required/>
-            </label>
-              
-            <label for="email">Email: 
-            <input type="email" name="email" id="email" maxlength="90" required/>
-            </label>
-              
-            <label for="mensaje">Mensaje:
-            <textarea name="mensaje" id="mensaje" cols="30" rows="6"></textarea>
-            </label>
-                    
-                
-            <p id="mensajeError"></p>
-            <p>
-                <input type="submit" value="Enviar" id="enviar" />
-                <input type="submit" value="Borrar" id="borrar" />
-            </p>
 
-            <!--<button id="show" onclick="document.getElementById('dialogo-1').show()">Click</button>-->
+      <!--<button id="show" onclick="document.getElementById('dialogo-1').show()">Click</button>
             <button id="show-modal" onclick="document.getElementById('dialogo-1').showModal()">ME</button>
-            <!--<script>
-              const dialog = document.getElementById('dialog');
-              document.getElementById('button').addEventListener('click', () => dialog.showModal());
-              document.getElementById('button').addEventListener('keypress', (e) =>{
-                  if(e.key === "Enter"){
-                      dialog.showModal()
-                  }});
-              document.getElementById('close').addEventListener('click', (e) =>{
-                  e.preventDefault();
-                  dialog.close();
-              })
-            </script>-->
             
             <dialog id="dialogo-1">
               <h1>Contact Me</h1>
@@ -291,15 +290,24 @@
               <img class="redes" src="img/gith.png" alt="Icono" width="30px" height="30px">MariDaw <br>
               <img class="redes" src="img/gm.png" alt="Icono" width="30px" height="30px">maria.quiros@iesdonana.org<br>
               <button id="close" onclick="document.getElementById('dialogo-1').close()">Close</button>
-            </dialog>
+            </dialog>-->
 
-        </form>
-        <!--<a href="http://www.w3.org/WAI/WCAG1AA-Conformance"
+
+    </form>
+    <!--<a href="http://www.w3.org/WAI/WCAG1AA-Conformance"
         title="Explicación del Nivel Doble-A de Conformidad"><img class="acredita" height="32" width="88" 
         src="http://www.w3.org/WAI/wcag1AA" alt="Icono de conformidad"></a>-->
-    </footer>
-    <div id="fin">
-        © 2021 María Quirós. All rigths reserved.
-    </div>
+        <dialog id="dialogo">
+          <p>¡Hola!</p>
+          <button id="cerrar">Cerrar</button>
+        </dialog>
+        
+        
+        <button id="mostrar">Mostrar diálogo</button>
+  </footer>
+  <div id="fin">
+    © 2021 María Quirós. All rigths reserved.
+  </div>
 </body>
+
 </html>
