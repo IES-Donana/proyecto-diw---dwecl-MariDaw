@@ -1755,7 +1755,7 @@ footer h1 {
 }
 }
 
-@media screen and (max-width: 400px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
     * {
         padding: 0;
@@ -1767,20 +1767,20 @@ footer h1 {
     }
 
     #header {
-        height: 110vh;
+        height: 90vh;
     }
 
     #principal{
-        width: 350px;
-        height: 450px;
+        width: 260px;
+        height: 380px;
         position: relative;
-        right: 15px;
+        right: 145px;
         bottom: 50px;
     }
 
     #principal img{
-        width: 350px;
-        height: 450px;
+        width: 260px;
+        height: 380px;
     }
 
     #scroll{
@@ -1791,8 +1791,8 @@ footer h1 {
         border: 0px solid orange;
         display: flex;
         position: relative;
-        top: 560px;
-        left: 50px;
+        top: 500px;
+        left: 15px;
         font-family: 'Roboto Condensed', sans-serif;
 
     }
@@ -1804,7 +1804,7 @@ footer h1 {
 
     header #breve {
         font-size: 20px;
-        width: 400px;
+        width: 300px;
         font-style: normal;
     }
 
@@ -1882,12 +1882,12 @@ footer h1 {
         position: relative;
         top: -250px;
         text-transform: uppercase;
-        width: 100px;
+        width: 50px;
         border: 1px solid black;
         border-radius: 3px;
         background-color: black;
         color: white;      
-        left: 300px;
+        left: 290px;
 
     }
 
@@ -1957,13 +1957,13 @@ nav {
 }
 #work {
     width: 100%;
-    height: 230vh;
+    height: 210vh;
     background-color: black;
 }
 
 #work h1{
     text-align: center;
-    left: 150px;
+    left: 80px;
     color: white;
     position: relative;
     top: 40px;
@@ -1987,7 +1987,14 @@ nav {
 #containerWork div img {
     border: 0px solid orange;
     margin: 10px;
+    position: relative;
+    right: 30%;
 
+}
+
+.textowork{
+    position: relative;
+    right: 90px;
 }
 
 .dwork{
@@ -2002,6 +2009,7 @@ nav {
 #testimonios h1 {
     text-align: center;
     position: relative;
+    right: 90px;
     top: 30px;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -2022,7 +2030,7 @@ nav {
     height: 118px;
     position: relative;
     top: 90px;
-    right: 70px;
+    right: 195px;
     margin: 30px;
 
 
@@ -2045,7 +2053,7 @@ nav {
 
 #testimonios {
     width: 100%;
-    height: 90vh;
+    height: 80vh;
 }
 
 #aboutme {
@@ -2058,6 +2066,7 @@ nav {
     color: white;
     text-align: center;
     position: relative;
+    right: 90px;
     top: 25px;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -2076,7 +2085,7 @@ nav {
 #containerAbout div .imgSobre {
     border: 10px solid white;
     position: relative;
-    right: 190px;
+    right: 230px;
     bottom: 20px;
     border-bottom: 25px solid white;
     width: 100px;
@@ -2086,7 +2095,7 @@ nav {
 #containerAbout h2 {
     color: white;
     position: relative;
-    left: 150px;
+    left: 100px;
     bottom: 155px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
@@ -2094,9 +2103,9 @@ nav {
 .textoabout {
     color: white;
     position: relative;
-    left: 150px;
+    left: 100px;
     bottom: 160px;
-    width: 270px;
+    width: 220px;
     margin-top: 5px;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
@@ -2147,7 +2156,7 @@ form {
     height: 200px;
     position: relative;
     bottom: -20px;
-    right: 130px;
+    right: 190px;
     /* Esquema del formulario */
     padding: 1em;
     border: 0px solid #CCC;
@@ -2192,6 +2201,8 @@ footer h1 {
     height: 5vh;
     display: block;
     text-align: center;
+    position: relative;
+    right: 90px;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
