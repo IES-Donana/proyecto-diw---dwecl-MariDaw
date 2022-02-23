@@ -63,14 +63,16 @@ body {
 /*Nav*/
 #navegador{
     position: fixed;
-    min-height: 30px;
-    width: 30px;
-    top: 40%;
+    min-height: 35px;
+    width: 20px;
+    top: 50%;
     text-align: center;
     word-wrap: break-word;
-    background-color: #F3DD62;
-    border: 5px solid black;
-    border-radius: 50px;
+    background: url(../img/angulo-cuadrado-abajo.svg) no-repeat -10px 0px;
+    background-color: white;
+    background-size: 37px;
+    border:5px solid black;
+    border-radius: 0px 10px 10px 0px;
     list-style: none;
     z-index: 1;
     
@@ -86,6 +88,7 @@ body {
     border-radius: 10px;
     padding-top: 20px;
     width: 80px;
+    font-family: 'Roboto Condensed', sans-serif;
     height: 100px;
     margin-left: 20px;
 }
