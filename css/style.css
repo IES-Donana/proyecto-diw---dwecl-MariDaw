@@ -28,13 +28,45 @@ body {
     display: none;
 }
 
+/*Buscador*/
+#buscador{
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    height: 40px;
+    margin-right: 30px;
+    
+}
+
+#busca{
+    width: 60px;
+    height: 20px;
+    border: 3px solid black;
+    outline: none;
+    background-color: transparent;
+    overflow: hidden;
+    background: url(../img/busqueda.svg) no-repeat 5px;
+    background-size: 14px;
+    padding: 5px 5px 5px 20px;
+
+}
+
+#busca::placeholder{
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: larger;
+    font-weight: lighter;
+    padding: 1px 2px;
+}
+
+
 
 
 /* CONTAINERS */
 
 #header {
     width: 100%;
-    height: 110vh;
+    height: 115vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -100,7 +132,7 @@ body {
 
 #logo {
     float: left;
-    margin-top: 80px;
+    margin-top: 60px;
     margin-left: 80px;
     /*border: px solid pink;*/
 }
@@ -110,7 +142,7 @@ header h1, #breve{
     display: flex;
     position: relative;
     margin: 20px;
-    top: 280px;
+    top: 250px;
     left: 70px;
 
 }
@@ -133,7 +165,7 @@ header #breve {
     margin-right: 50px;
     border: 25px solid black;
     position: relative;
-    bottom: 100px;
+    bottom: 120px;
     right: 50px;
     width: 430px;
     height: 480px;
@@ -165,13 +197,15 @@ header ol li {
     align-items: center;
     /* font-size: px; */
     font-weight: bold;
-    bottom: 70px;
+    bottom: 90px;
     padding-right: 74px;
     right: 50px;
     position: relative;
+    color: black;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bolder;
     font-size:larger;
+    
     /* border: 1px solid red; */
 
 
