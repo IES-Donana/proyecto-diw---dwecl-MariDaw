@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100.0px"
+   height="100.0px"
+   viewBox="0 0 100.0 100.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="dibujo-1.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview29084"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="3.7059484"
+     inkscape:cx="15.24576"
+     inkscape:cy="58.149758"
+     inkscape:window-width="1360"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid29090" />
+  </sodipodi:namedview>
+  <defs
+     id="defs29079">
+    <rect
+       x="15"
+       y="20"
+       width="70"
+       height="60"
+       id="rect33145" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000"
+       id="rect29137"
+       width="100"
+       height="100"
+       x="0"
+       y="0" />
+    <text
+       xml:space="preserve"
+       id="text33143"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect33145);fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(1.6377834,0,0,2.0848006,-12.069401,-56.510824)"><tspan
+         x="15"
+         y="56.493213"
+         id="tspan37164"><tspan
+           style="font-weight:bold;font-size:26.2385px;-inkscape-font-specification:'sans-serif Bold';fill:#f3dd62"
+           id="tspan37162">mq</tspan></tspan></text>
+  </g>
+</svg>
