@@ -7,11 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MaríaQuirós | Portafolio</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <link rel="shortcut icon" href="img/favicon.ico">
   <script defer src="/js/burger.js"></script>
   <script defer src="/js/validar.js"></script>
   <link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="js/dialog.js"></script>
   <style>
     .error {
       border: 2px solid red;
@@ -20,13 +24,13 @@
 </head>
 
 <body>
-  
+
   <audio autoplay preload="auto">
     <source src="audio/fondo.mp3" type="audio/mpeg">
     <source src="audio/fondo.ogg" type="audio/ogg">
   </audio>
-  <video id="fondo" width="100%" height="110vh" autoplay preload="auto" muted>
-    <source src="video/Abstract - 20072.mp4" type="video/mp4">
+  <video id="fondo" autoplay preload="auto" muted>
+    <source src="video/fondo.mp4" type="video/mp4">
     <source src="video/Abstract-20072.ogg" type="video/ogg">
   </video>
   <header id="header">
@@ -35,31 +39,33 @@
       <input id="busca" type="text" placeholder="| Buscar">
       </label>
     </div>
-    <section id="logo">
+    <div id="logo">
       <picture>
         <source media="(min-width: 465px)" srcset="img/logo.png">
         <img src="img/logoSVG.svg" alt="" width="100" height="100">
       </picture>
 
-    </section>
+    </div>
 
     <div id="navegador">
       <div id="noNav" class="scaled">
-        <li>
-          <a class="nav" href="#header"><strong>INI</strong></a>
-        </li>
-        <li>
-          <a class="nav" href="#work"><strong>PRO</strong></a>
-        </li>
-        <li>
-          <a class="nav" href="#testimonios"><strong>TES</strong></a>
-        </li>
-        <li>
-          <a class="nav" href="#aboutme"><strong>SOB</strong></a>
-        </li>
-        <li>
-          <a class="nav" href="#contacto"><strong>CON</strong></a>
-        </li>
+        <ul>
+          <li>
+            <a class="nav" href="#header"><strong>INI</strong></a>
+          </li>
+          <li>
+            <a class="nav" href="#work"><strong>PRO</strong></a>
+          </li>
+          <li>
+            <a class="nav" href="#testimonios"><strong>TES</strong></a>
+          </li>
+          <li>
+            <a class="nav" href="#aboutme"><strong>SOB</strong></a>
+          </li>
+          <li>
+            <a class="nav" href="#contacto"><strong>CON</strong></a>
+          </li>
+        </ul>
       </div>
     </div>
 
@@ -88,16 +94,16 @@
         <li id="barraTres" class="barra"></li>
       </ul>
     </div>
-    <section id="principal">
+    <div id="principal">
       <picture>
         <source media="(min-width: 650px)" srcset="img/principal.jpg">
         <img src="img/principal.jpg" alt="Foto Principal" width="430" height="480">
       </picture>
 
-    </section>
-    <section id="scroll">
+    </div>
+    <div id="scroll">
       <a href="#work"><img src="img/angulo-hacia-abajo.svg" alt="Scroll" width="40" height="30"></a>
-    </section>
+    </div>
   </header>
   <div id="work">
     <h1 class="titulo">Proyectos</h1>
@@ -142,7 +148,7 @@
   </div>
   <div id="testimonios">
     <h1 class="titulo">Testimonios</h1>
-    
+
     <nav class="breadBlack">
       <ul>
         <li><a href="#header">Inicio</a></li>
@@ -150,23 +156,23 @@
         <li>Testimonios</li>
       </ul>
     </nav>
-    <section id="test1">
-      <video src="video/video.mp4" controls alt="Testimonio 1" width="350" height="230"
+    <div id="test1">
+      <video src="video/video.mp4" controls width="350" height="230"
         poster="img/oficina1.png"></video>
       <aside id="asidetest">
         <strong>Necesitábamos un software que cubriera las necesidades de gestión de mi empresa para atender mejor a los
           clientes y llevar un mejor control interno. El trato y la calidad a lo largo de todo el proceso fue
           perfecto.</strong>
       </aside>
-    </section>
-    <section id="test2">
-      <video src="video/video.mp4" controls alt="Testimonio 2" width="350" height="230"
+    </div>
+    <div id="test2">
+      <video src="video/video.mp4" controls width="350" height="230"
         poster="img/oficina2.png"></video>
       <aside id="asidetest2">
         <strong>Trabajamos con María por su atención cercana, su trato, su positivismo y su entusiasmo a la hora de
           hacer su trabajo.</strong>
       </aside>
-    </section>
+    </div>
   </div>
   <div id="aboutme">
     <h1 class="titulo">Sobre mí</h1>
@@ -216,12 +222,9 @@
           Me gusta mucho hacer deporte, por lo que en mi tiempo libre voy sea correr, montar en bici, ir de sendero o
           montar en monopatín... Me encanta estar con mis amigos e investigar sobre las criptomonedas.<br>
           <br>
-          </br>
-          </br>
-          </br>
           <details>
             <summary>Más info</summary>
-            <img class="sum" src="img/logotipo.gif" alt="Logotipo" width="150px" height="150px">
+            <img class="sum" src="img/logotipo.gif" alt="Logotipo" width="150" height="150">
           </details>
         </aside>
       </div>
@@ -330,20 +333,25 @@
 
       <!--<button id="show" onclick="document.getElementById('dialogo-1').show()">Click</button>-->
             <button id="show-modal" onclick="document.getElementById('dialogo-1').showModal()">ME</button>
-            
+
             <dialog id="dialogo-1">
               <h1>Contact Me</h1>
-              <img class="redes" src="img/usuario.svg" alt="Icono" width="30px" height="30px">Maria Quirós Enríquez<br>
-              <img class="redes" src="img/llamada-telefonica.svg" alt="Icono" width="30px" height="30px">666 666 666<br>
-              <img class="redes" src="img/marcador.svg" alt="Icono" width="30px" height="30px">C/ Mercedes Alaya 5º<br>
-              <img class="redes" src="img/sobre.svg" alt="Icono" width="30px" height="30px">maria.quiros@iesdonana.org<br>
+              <img class="redes" src="img/usuario.svg" alt="Icono" width="30" height="30">Maria Quirós Enríquez<br>
+              <img class="redes" src="img/llamada-telefonica.svg" alt="Icono" width="30" height="30">666 666 666<br>
+              <img class="redes" src="img/marcador.svg" alt="Icono" width="30" height="30">C/ Mercedes Alaya 5º<br>
+              <img class="redes" src="img/sobre.svg" alt="Icono" width="30" height="30">maria.quiros@iesdonana.org<br>
               <button id="close" onclick="document.getElementById('dialogo-1').close()">Close</button>
             </dialog>
 
+      <div id="validaciones">
+        <img src="img/wcag1AA.png" alt="Validación Wcag" width="80" height="30">
+        <img src="img/html5-validator-badge.png" alt="Validación Html" width="80" height="30">
+        <img src="img/css.png" alt="Validación Css" width="80" height="30">
+      </div>
 
     </form>
     <!--<a href="http://www.w3.org/WAI/WCAG1AA-Conformance"
-        title="Explicación del Nivel Doble-A de Conformidad"><img class="acredita" height="32" width="88" 
+        title="Explicación del Nivel Doble-A de Conformidad"><img class="acredita" height="32" width="88"
         src="http://www.w3.org/WAI/wcag1AA" alt="Icono de conformidad"></a>-->
   </footer>
   <div id="fin">
